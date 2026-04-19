@@ -1,0 +1,40 @@
+section.container{
+    border: 3px solid blue;
+    min-height: 600px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-family: ProximanNova, Lato, sans-serif;
+
+    > * {border: 1px dotted black;}
+}
+
+Header{
+    font-family: ProximaNova, Lato, sans-serif;
+    background-color: #DE8F32;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
+
+nav{
+    font-family: ProximaNova, Lato, sans-serif;
+    background-color: #DE8F32;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+        a{
+            text-decoration: none;
+            padding: 0 20px ;
+            color:black;
+            &:hover{
+                text-decoration: underline;
+                font-size: 24px;
+            }
+        }
+}
