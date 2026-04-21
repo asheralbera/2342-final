@@ -3,7 +3,6 @@ h2{text-align: left; font-style: italic; font-weight: bold;
     padding: 0 40px;
 }
 section.container{
-    border: 3px solid blue;
     min-height: 600px;
     max-width: 1150px;
     margin: 0 auto;
@@ -54,39 +53,34 @@ section.animation-cont{ font-size: 20px;
 }
     div#videos{
         display: flex; justify-content: space-between;
-        border: 3px solid magenta;
 
     section.video-left{
         display: flex; flex-direction: column; justify-content: space-between;
-        width: 45%; border: 3px solid red; padding: 10px;
+        width: 45%; padding: 30px; margin-bottom: 30px;
     }
     section.video-right {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 45%;
-        border: 3px solid red;
-        padding: 10px;
+        padding: 30px; margin-bottom: 30px;
 
     }
-
-    > * {border: 1px dotted black;}
 }
 
     div#twosides-images{
         display: flex; justify-content: space-between;
-        border:  12px solid orange;
 
         section.left-image{ display: flex; flex-direction: column; justify-content: space-between;
-            border: 3px solid red; width: 50%;}
+            width: 50%;}
 
         section.right-image{ display: flex; flex-direction: column; justify-content: space-between;
-            border: 3px solid red; width: 50%;
+            width: 50%;
         }
         figure{
             display: flex; flex-direction: column; justify-content: space-between;
             background-color: #e1a971;
-            border: 7px solid #e1a971
+            border: 7px solid #e1a971;
             padding:0;
 
             figcaption{padding: 15px;
